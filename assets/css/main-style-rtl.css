@@ -1,0 +1,160 @@
+/* Start  may-cart Page ******************************************* */
+.head-rtl{
+  text-align: right;
+  margin-right: 2%
+}
+.head-rtl i{
+  margin-left: 1%
+}
+.details-order{
+  text-align: right
+}
+/* End  may-cart Page ******************************************* */
+
+/* STart  Home Page ******************************************* */
+._home-other-links{
+  margin-left:80px !important
+}
+.product-title  {
+  text-align: right
+}
+.product-price{
+  text-align: right
+}
+.special-info{
+  text-align: right
+}
+.special-info-pargraph{
+  margin-left:100px ;
+  padding-right: 0;
+}
+.category ul .list-cat {
+  text-align: right;
+}
+@media(max-width:768px){
+  ._home-other-links{
+    margin-left: 0 !important
+  }
+}
+/* End  Home-cart Page ******************************************* */
+
+/* Start  Orders Page ******************************************* */
+.links-page{
+  text-align: left;
+  margin-left: 125px
+}
+
+.main-info{
+  margin-right: 100px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  display: flex
+}
+.name-user{
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right
+}
+.list-item {
+  margin-left: 20px
+}
+.list-item a{
+  margin-right: 0;
+}
+.list-item a{
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  color: #000;
+}
+/* End  Orders Page ******************************************* */
+
+/* Start  product Orders ******************************************* */
+.image-info{
+  text-align: right
+}
+.desc-product .desc-content {
+  margin-right: 30px;
+  width: 50%;
+}
+/* End  product Orders ******************************************* */
+
+/* Start  Login&Rgister ******************************************* */
+.label-regist{
+  text-align: right
+}
+/* End  Login&Rgister  ******************************************* */
+
+
+/* Start Navbar *************************************************** */
+._other-p-navbar-nav{
+  left: 0% !important
+}
+.other-links {
+  margin-left: 80px !important ;
+}
+@media (max-width:678px){
+  .other-links {
+    position: absolute;
+    top: 15%;
+    left: 23% !important;
+    margin-left: 0 !important
+  }
+  .links-page{
+    margin-left: 38px;
+    margin-top: 8px;
+  }
+  .main-info{
+    margin-right: -25px;
+    padding-bottom: 110px
+  }
+
+.img-user img {
+  width: 90px;
+  height: 90px;
+  margin-top: 15px;
+  margin-right: 40px
+}
+}
+/* End Navbar *************************************************** */
+
+.head-order{
+  display: block;
+  text-align: right
+}
+.image-order{
+  z-index: 999;
+  box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
+  /* transform: translate(-35%); */
+  padding: 10px;
+  border-radius: 50% 10% 50% 10%
+}
+
+
+
+/* Start Footer *************************************************** */
+.head-footer {
+  text-align: right
+}
+.footer-li{
+  text-align: right
+}
+.footer-li i {
+  margin-left: 10px !important;
+  display: inline-block
+}
+@media (max-width:768px){
+  .footer{
+    text-align: center !important
+  }
+  .head-footer {
+    text-align: center
+  }
+  .footer-li{
+    text-align: center
+  }
+}
+/* End Footer *************************************************** */
